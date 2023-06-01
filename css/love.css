@@ -236,3 +236,11 @@ p {
 .neon-button:focus::after {
   opacity: 1;
 }
+
+@media only screen and (max-device-width: 411px) {
+
+/*  { width:600px; } */
+p {
+  max-width: 500px;
+}
+}
