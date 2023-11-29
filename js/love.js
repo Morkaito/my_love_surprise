@@ -4,8 +4,8 @@ if (window.location.pathname.split('/').slice(-1)[0] != "love4.html") {
         console.log('add  event');
         document.querySelector('#cb').addEventListener('mouseover', (cb) => {
             console.log(cb);
-            const i = Math.floor(Math.random() * 500) + 1;
-            const j = Math.floor(Math.random() * 500) + 1;
+            const i = Math.floor(Math.random() * 150) + 1;
+            const j = Math.floor(Math.random() * 150) + 1;
 
             cb.target.style.left = i + "px"
             cb.target.style.top = j + "px"

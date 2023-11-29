@@ -1,7 +1,13 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,20 +20,18 @@ body {
 
 p {
   margin: 0;
-  display: inline-block;
+  display: inline;
   width: 100%;
 }
 
 #typewriter {
   width: 100%;
-  max-width: 100%;
   color: #fff;
   font-size: 22px;
   font-family: 'VCR OSD Mono', sans-serif;
 }
 
 #typewriter:after {
-  content: "|";
   font-size: 50px;
   font-family: "Courier New";
   color: white;
@@ -239,8 +243,8 @@ p {
 
 @media only screen and (max-device-width: 411px) {
 
-/*  { width:600px; } */
-p {
-  max-width: 500px;
-}
+  /*  { width:600px; } */
+  p {
+    max-width: 500px;
+  }
 }
